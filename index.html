@@ -11,11 +11,11 @@
 </head>
 <body>
 <script src="script.js"></script>
-<div id="carousel pics" class="carousel slide" data-ride="carousel" data-interval="2000">
+<div id="carouselpics" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carousel pics" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel pics" data-slide-to="1"></li>
-    <li data-target="#carousel pics" data-slide-to="2"></li>
+    <li data-target="#carouselpics" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselpics" data-slide-to="1"></li>
+    <li data-target="#carouselpics" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner" role"listbox">
     <div class="item active">
@@ -36,6 +36,15 @@
         <h3>Sites</h3>
       </div>
     </div>
+    <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 </body>
 </html>
