@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Crystal's resume page</title>
+    <title>Visual based web</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,24 +11,31 @@
 </head>
 <body>
 <script src="script.js"></script>
-   <div class="container">
-  <div class="row">
-     <!-- Picture Column -->
-     <div class="col-sm-12">
-        <div class="abc">
-           <img src="portrait_selected-4.jpg" class="img-responsive" ></img>
-           <div class="def">
-              <div class="panel panel-default">
-                 <div class="panel-heading">Contact</div>
-                 <div class="panel-body">Here is the contact information gonna be. There will be a telephone number, open/closing times and an e-mail.</div>
-              </div>
-           </div>
-        </div>
-     </div>
-     <!-- Contact Column-->
-  </div>
-  <!--/row-->
-   </div>
-   <!--/container-->
+<div id="carousel pics" class="carousel slide" data-ride="carousel" data-interval="2000">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel pics" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel pics" data-slide-to="1"></li>
+    <li data-target="#carousel pics" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role"listbox">
+    <div class="item active">
+      <img src="portrait_selected-4.jpg" alt="pinnaple">
+      <div class="carousel-caption">
+        <h3>Photography</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="portrait_selected-5.jpg" alt="blurredeyes">
+      <div class="carousel-caption">
+        <h3>Visual Artworks</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="portrait_selected-3.jpg" alt="wind">
+      <div class="carousel-caption">
+        <h3>Sites</h3>
+      </div>
+    </div>
+</div>
 </body>
 </html>

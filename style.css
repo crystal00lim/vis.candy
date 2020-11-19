@@ -1,19 +1,13 @@
-/* html {
-  background-image: url('portrait_selected-4.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  height: auto;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-} */
-.abc {
-  position: relative;
+h3 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: aliceblue;
 }
-.def {
-  position: absolute;
-  top: 30px;
-  right: 20px;
-  max-width: 300px;
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: aliceblue !important;
 }
