@@ -11,3 +11,23 @@ h3 {
 .carousel-caption h3 {
   color: aliceblue !important;
 }
+a:link {
+  color: aliceblue;
+  background-color: transparent;
+  text-decoration: none; 
+}
+a:visited {
+  color: aliceblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: plum;
+  background-color: transparent;
+  text-decoration: none;
+}
