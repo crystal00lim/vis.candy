@@ -31,3 +31,42 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
+.img {
+  position: relative;
+}
+.container {
+  position: relative;
+}
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+/*  background-color: rgba(29, 29, 29, 0.3);
+*/
+  text-align: center;
+  padding: 5px;
+}
+.col-sm-4 {
+  font-size: 50%;
+  color: white;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+#opening {
+  font-size: 140%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 0.8;
+}
+a.link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
