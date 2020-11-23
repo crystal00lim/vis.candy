@@ -70,3 +70,9 @@ a.link {
   background-color: transparent;
   text-decoration: none;
 }
+.col-sm-12 {
+  padding:15px;
+}
+.col-sm-3 {
+  padding: 15px;
+}
