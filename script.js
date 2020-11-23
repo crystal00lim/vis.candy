@@ -9,6 +9,9 @@ $(document).ready(function(){
   $(".item3").click(function(){
     $("#carouselpics").carousel(2);
   });
+  $(".item4").click(function(){
+    $("#carouselpics").carousel(3);
+  });
   $(".left").click(function(){
     $("#carouselpics").carousel("prev");
   });

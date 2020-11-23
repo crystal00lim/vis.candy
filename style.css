@@ -2,22 +2,22 @@ h3 {
   margin: 10px 0 30px 0;
   letter-spacing: 10px;
   font-size: 20px;
-  color: aliceblue;
+  color: white;
 }
 .carousel-inner img {
   width: 100%;
   margin: auto;
 }
 .carousel-caption h3 {
-  color: aliceblue !important;
+  color: white !important;
 }
 a:link {
-  color: aliceblue;
+  color: white;
   background-color: transparent;
   text-decoration: none; 
 }
 a:visited {
-  color: aliceblue;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -27,7 +27,7 @@ a:hover {
   text-decoration: none;
 }
 a:active {
-  color: plum;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
