@@ -79,3 +79,7 @@ a.link {
 .col-sm-6 {
   padding: 15px;
 }
+.tab {
+  text-indent: 40px;
+  font-family: roboto;
+}
