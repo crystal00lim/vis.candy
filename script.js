@@ -19,3 +19,31 @@ $(document).ready(function(){
     $("#carouselpics").carousel("next");
   });
 });
+
+function mood() {
+  document.body.classList = sessionStorage.getItem("mode");
+  if (document.body.classList == 'null' || undefined || null) {
+    sessionStorage.setItem("mode","light-mode");
+    document.body.classList = sessionStorage.getItem("mode");
+  } else {
+    if (document.body.classList !== null || undefined || '') {
+      sessionStorage.getItem("mode");
+    document.body.classList = sessionStorage.getItem("mode");
+    }
+  }
+}
+function dark() {
+   if (document.body.classList.contains('light-mode')) {
+     document.body.classList.toggle("light-mode");
+     document.body.classList.add("dark-mode");
+   } else {
+     if (document.body.classList.contains('dark-mode')) {
+     document.body.classList.toggle("dark-mode");
+//     now.innerText = 'dark';
+//     alert(now.innerText);
+     document.body.classList.add("light-mode");
+     }
+    }
+sessionStorage.setItem("mode",document.body.classList);
+}
+
