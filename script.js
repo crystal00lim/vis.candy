@@ -21,15 +21,11 @@ $(document).ready(function(){
 });
 
 function mood() {
-  document.body.classList = sessionStorage.getItem("mode");
-  if (document.body.classList == 'null' || undefined || null) {
+  if (sessionStorage.getItem("mode") == null || undefined || '') {
     sessionStorage.setItem("mode","light-mode");
     document.body.classList = sessionStorage.getItem("mode");
   } else {
-    if (document.body.classList !== null || undefined || '') {
-      sessionStorage.getItem("mode");
     document.body.classList = sessionStorage.getItem("mode");
-    }
   }
 }
 function dark() {
