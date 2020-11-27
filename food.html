@@ -4,12 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Visual based web</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script>
+       // Get HTML head element 
+        var head = document.getElementsByTagName('HEAD')[0];  
+        // Create new link Element 
+        var link = document.createElement('link');
+        // set the attributes for link element 
+        var mode = sessionStorage.getItem("mode");
+        link.rel = 'stylesheet';  
+        link.type = 'text/css'; 
+        link.href = mode;  
+        // Append link element to HTML head 
+        head.appendChild(link); 
+    </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body onload="mood()">
+<body class="body">
 <script src="script.js"></script>
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">

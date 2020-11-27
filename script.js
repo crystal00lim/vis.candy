@@ -20,26 +20,14 @@ $(document).ready(function(){
   });
 });
 
-function mood() {
-  if (sessionStorage.getItem("mode") == null || undefined || '') {
-    sessionStorage.setItem("mode","light-mode");
-    document.body.classList = sessionStorage.getItem("mode");
-  } else {
-    document.body.classList = sessionStorage.getItem("mode");
-  }
-}
 function dark() {
-   if (document.body.classList.contains('light-mode')) {
-     document.body.classList.toggle("light-mode");
-     document.body.classList.add("dark-mode");
-   } else {
-     if (document.body.classList.contains('dark-mode')) {
-     document.body.classList.toggle("dark-mode");
-//     now.innerText = 'dark';
-//     alert(now.innerText);
-     document.body.classList.add("light-mode");
-     }
+  sessionStorage.getItem("mode");
+  if (sessionStorage.getItem("mode") == "light-mode.css") {
+    sessionStorage.setItem("mode","dark-mode.css");
+  } else {
+    if (sessionStorage.getItem("mode") == "dark-mode.css") {
+      sessionStorage.setItem("mode","light-mode.css");
     }
-sessionStorage.setItem("mode",document.body.classList);
+  }
+location.reload();
 }
-

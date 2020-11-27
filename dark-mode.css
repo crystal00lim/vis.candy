@@ -1,0 +1,97 @@
+h3 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: white;
+}
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: white !important;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none; 
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.img {
+  position: relative;
+}
+.container {
+  position: relative;
+}
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+/*  background-color: rgba(29, 29, 29, 0.3);
+*/
+  text-align: center;
+  padding: 5px;
+}
+.col-sm-4 {
+  font-size: 50%;
+  color: white;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+#opening {
+  font-size: 140%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 0.8;
+}
+a.link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.col-sm-12 {
+  padding:15px;
+}
+.col-sm-3 {
+  padding: 15px;
+}
+.col-sm-6 {
+  padding: 15px;
+}
+.tab {
+  text-indent: 40px;
+  font-family: roboto;
+}
+.navbar-right {
+  padding-right: 10px;
+}
+#darkmode {
+  background-color: transparent;
+  padding: 15px;
+  border-style: none;
+}
+.body {
+  background-color: black;
+  color: white;
+}

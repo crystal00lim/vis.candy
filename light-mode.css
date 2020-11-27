@@ -86,10 +86,7 @@ a.link {
 .navbar-right {
   padding-right: 10px;
 }
-body {
-  background-color: white;
-  color: black;
-}
+
 #darkmode {
   background-color: transparent;
   padding: 15px;
