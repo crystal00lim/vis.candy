@@ -84,7 +84,7 @@ a.link {
   font-family: roboto;
 }
 .navbar-right {
-  padding-right: 10px;
+  padding-left: 10px;
 }
 #darkmode {
   background-color: transparent;
@@ -111,7 +111,6 @@ a.link {
   top: 0; /* At the top */
   z-index: 99;
 }
-
 /* Style the navbar links */
 #navbar a {
   float: left;
@@ -123,7 +122,6 @@ a.link {
   line-height: 25px;
   border-radius: 4px;
 }
-
 /* Style the logo */
 #navbar #logo {
   font-size: 35px;
@@ -131,7 +129,6 @@ a.link {
   transition: 0.4s;
   font-family: robotto;
 }
-
 /* Links on mouse-over */
 #navbar a:hover {
   background-color: #ddd;
@@ -141,7 +138,6 @@ a.link {
 #navbar-right {
   float: right;
 }
-
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
 @media screen (max-width: 767px) and (min-width: 320px) {
   #navbar {
@@ -155,4 +151,75 @@ a.link {
   #navbar-right {
     float: none;
   }
+}
+/* Icon 1 */
+.animated-icon1, .animated-icon2, .animated-icon3 {
+width: 30px;
+height: 20px;
+position: relative;
+margin: 0px;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+display: block;
+position: absolute;
+height: 3px;
+width: 100%;
+border-radius: 9px;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .25s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+background: #e65100;
+} /* alternative icon color: #e3f2fd (light blue) and #f3e5f5 (light pink) */
+
+.animated-icon1 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+top: 11px;
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+opacity: 0;
+left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+top: 11px;
+-webkit-transform: rotate(-135deg);
+-moz-transform: rotate(-135deg);
+-o-transform: rotate(-135deg);
+transform: rotate(-135deg);
 }
