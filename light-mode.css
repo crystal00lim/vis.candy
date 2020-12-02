@@ -107,62 +107,10 @@ ul.no-bullets {
   background-color: white;
   color: black;
 }
-#navbar {
-  overflow: hidden;
-  background-image: url("bowl.jpg");
-  background-size: cover;
-  background-position: center;
-  padding:  100px 10px; /* Large padding which will shrink on scroll (using JS) */
-  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-  position: fixed; /* Sticky/fixed navbar */
-  width: 100%;
-  top: 0; /* At the top */
-  z-index: 99;
-}
-/* Style the navbar links */
-#navbar a {
-  float: left;
-  color: #ddd;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-/* Style the logo */
-#navbar #logo {
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.4s;
-  font-family: robotto;
-}
-/* Links on mouse-over */
-#navbar a:hover {
-  color: white;
-}
-/* Display some links to the right */
-#navbar-right {
-  float: right;
-}
-/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-@media screen (max-width: 767px) and (min-width: 320px) {
-  #navbar {
-    padding: 20px 10px !important;
-  }
-  #navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  #navbar-right {
-    float: none;
-  }
-}
 /* Icon 1 */
 .animated-icon1, .animated-icon2, .animated-icon3 {
 width: 30px;
-height: 20px;
+height: 10px;
 position: relative;
 margin: 0px;
 -webkit-transform: rotate(0deg);
@@ -179,9 +127,9 @@ cursor: pointer;
 .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
 display: block;
 position: absolute;
-height: 3px;
+height: 2px;
 width: 100%;
-border-radius: 9px;
+border-radius: 4px;
 opacity: 1;
 left: 0;
 -webkit-transform: rotate(0deg);
