@@ -1,24 +1,6 @@
-$(document).ready(function(){
-  $("#carouselpics").carousel({interval: 2000});
-  $(".item1").click(function(){
-    $("#carouselpics").carousel(0);
-  });
-  $(".item2").click(function(){
-    $("#carouselpics").carousel(1);
-  });
-  $(".item3").click(function(){
-    $("#carouselpics").carousel(2);
-  });
-  $(".item4").click(function(){
-    $("#carouselpics").carousel(3);
-  });
-  $(".left").click(function(){
-    $("#carouselpics").carousel("prev");
-  });
-  $(".right").click(function(){
-    $("#carouselpics").carousel("next");
-  });
-});
+$('#myCarousel').carousel({
+		pause: 'none'
+})
 
 function dark() {
   sessionStorage.getItem("mode");
@@ -31,8 +13,6 @@ function dark() {
   }
 location.reload();
 }
-
-// scroll function is in resume-1 repl. 
 
 $(document).ready(function () {
   $('.first-button').on('click', function () {

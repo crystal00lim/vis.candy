@@ -26,87 +26,32 @@
 </head>
 <body class="body">
 <script src="script.js"></script>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="first-button navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <div class="animated-icon1">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </button>
-      <a class="navbar-brand" style="font-family:roboto;">Crystal Lim</a>
+
+<div id="background-carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active" style="background-image:url('portrait5.jpg')"></div>
+      <div class="item" style="background-image:url('portrait4.jpg')"></div>
+      <div class="item" style="background-image:url('portrait.jpg')"></div>  
     </div>
-    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html" id="logo">Home</a></li>
-        <li><a href="portrait.html">Portrait</a></li>
-        <li><a href="food.html">Food</a></li>
-        <li><a href="procreate.html">Procreate</a></li>
-        <li><a href="adobe.html">Adobe</a></li>
-        <li><button id="darkmode" onclick="dark()"><a id="dark" class="glyphicon glyphicon-off"></a></button></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<div class="container" style="margin-top:30px; font-size:30px">
-  <div class="col-sm-12">
-    <h1 style="font-family:roboto;">Artworks Page</h1>
-    <h4 class="tab">Hello World! This is Crystal. Welcome to this art page. These are all digitized works that I have made during college. Some of these are made for class, some are for my own enjoynment. Hope you enjoy the visuals! Thank you visiting! I will be updating this web page ever so often...
   </div>
 </div>
-  <div id="carouselpics" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselpics" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselpics" data-slide-to="1"></li>
-      <li data-target="#carouselpics" data-slide-to="2"></li>
-      <li data-target="#carouselpics" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role"listbox">
-      <div class="item active">
-        <a href="portrait.html"><img src="portraitphoto.jpg" alt="pinnaple"></a>
-        <div class="carousel-caption">
-          <a href="portrait.html"><h3>SELF-PORTRAIT</h3></a>
-        </div>
+<div class="centered">
+  <p id="opening" text-align="center">CRYSTAL LIM</p>
+  <div class="row">
+    <div class="col-sm-4"><a href="https://crystal00limgithubio.crystal00lim.repl.co" style="color:white;">Miscelaneous</a></div>
+    <div class="col-sm-4">
+      <a href="#artspg" data-toggle="collapse" style="color:white;background-color:transparent;padding:0px;">Artworks</a>
+      <div id="artspg" class="collapse">
+        <ul id="index-pg">
+          <li><a id="index-dd" href="portrait.html">Portraits</a></li>
+          <li><a id="index-dd" href="food.html">Food</a></li>
+          <li><a id="index-dd" href="procreate.html">Procreate</a></li>
+          <li><a  id="index-dd" href="adobe.html">Adobe</a></li>
+        </ul>
       </div>
-      <div class="item">
-        <a href="food.html"><img src="P1060665.JPG" alt="blurredeyes"></a>
-        <div class="carousel-caption">
-          <a href="food.html"><h3>FOOD</h3></a>
-        </div>
-      </div>
-      <div class="item">
-        <a href="procreate.html"><img src="carousel2.jpeg" alt="wind"></a>
-        <div class="carousel-caption">
-          <a href="procreate.html"><h3>PROCREATE</h3></a>
-        </div>
-      </div>
-      <div class="item">
-        <a href="adobe.html"><img src="carousel.jpeg" alt="wind"></a>
-        <div class="carousel-caption">
-          <a href="adobe.html"><h3>ADOBE ILLUSTRATE</h3></a>
-        </div>
-      </div>
-        <a class="left carousel-control" href="#myCarousel" role="button">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-        </a>
     </div>
-  </div>
-<div class="container">
-  <div class="row2">
-    <div class="col-sm-12">
-      <h4 style="font-family:robotto;">Update History:</h4>
-      <h4 style="font-family:robotto;">(Nov. 27th, 2020)</h4>
-      <h4 class="tab">There was a glitch in the dark mode, but I fixed it! The transition between one link to another should be much smoother now. I lowkey rewrote a new code just to make this happen... so please enjoy it! haha! Happy holidays!!<br></h4>
-      <h4 style="font-family:robotto;">(Dec. 2nd, 2020)</h4>
-      <h4 class="tab">Inspired by <a id="link" href="https://shepherdjin.carbonmade.com">this web page</a>,I have decided to make emmulate the same navigation button. It took awhile to figure it out and also to reorganize all my tabs and layouts... but I got it!</h4>
-    </div>
+    <div class="col-sm-4">About me</div>
   </div>
 </div>
 </body>
