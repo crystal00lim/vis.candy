@@ -41,27 +41,33 @@ html,body {
 #opening {
   font-size: 140%;
   color: white;
-  font-family: Roboto;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 300;
   line-height: 0.8;
 }
 h4 {
   font-family: robotto;
 }
+#nav {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #index-dd {
   color:white;
   background-color:transparent;
   text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #index-dd:active {
   color:grey;
   background-color:transparent;
   text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #index-dd:hover {
   color:white;
   background-color:transparent;
   text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #link {
   color: black;
@@ -91,7 +97,7 @@ h4 {
   transform: translate(-50%, -50%);
   font-size: 300%;
   color: white;
-  font-family: Roboto;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 300;
 /*  background-color: rgba(29, 29, 29, 0.3);
 */
@@ -101,7 +107,7 @@ h4 {
 .col-sm-4 {
   font-size: 50%;
   color: white;
-  font-family: Roboto;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0px;
   padding: 0px;
 }
@@ -121,7 +127,7 @@ a.link {
 }
 .tab {
   text-indent: 40px;
-  font-family: roboto;
+  font-family: roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 1.2;
 }
 .glyphicon {

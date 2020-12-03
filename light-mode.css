@@ -50,7 +50,10 @@ html,body {
   line-height: 0.8;
 }
 h4 {
-  font-family: robotto;
+  font-family: robotto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #index-dd {
   color:white;
@@ -98,7 +101,7 @@ h4 {
   transform: translate(-50%, -50%);
   font-size: 300%;
   color: white;
-  font-family: Roboto;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 300;
 /*  background-color: rgba(29, 29, 29, 0.3);
 */
@@ -108,7 +111,7 @@ h4 {
 .col-sm-4 {
   font-size: 50%;
   color: white;
-  font-family: Roboto;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0px;
   padding: 0px;
 }
@@ -128,7 +131,7 @@ a.link {
 }
 .tab {
   text-indent: 40px;
-  font-family: roboto;
+  font-family: roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 1.2;
 }
 .glyphicon {
