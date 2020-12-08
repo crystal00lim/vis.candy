@@ -224,3 +224,89 @@ transform: rotate(-135deg);
 .navbar-inverse {
   opacity:0.9;
 }
+*
+{
+    user-select: none;
+    -webkit-tap-highlight-color:transparent;
+}
+#light {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: transparent;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+#button {
+  display: table-cell;
+  width:70px;
+  height: 35px;
+  border-radius: 250px;
+  cursor: pointer;
+
+}
+.bckgrd {
+  background-image: url('light6.png');
+  background-size: 150px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#knob {
+  width: 25px;
+  height: 25px;
+  background-image: url('M2.png');
+  background-size: 500px;
+  position: relative;
+  top: 4px;
+  left: 4px;
+  border-radius: 250px;
+  transition: 0.4s ease left, 0.4s ease background-position;
+  z-index: 2;
+}
+
+#subscribe,
+#alright {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  font-family: roboto , sans-serif;
+  margin-left: 0px;
+  z-index: 1;
+}
+#subscribe {
+  color: black;
+}
+#alright {
+  color: white;
+}
+
+#lol-checkbox:checked + #button #knob {
+  left: 38px;
+  background-position: -345px 0;
+}
+
+#lol-checkbox:checked + .bckgrd {
+  background-image: url('dark.png');
+  background-size:50px;
+  border-style: solid;
+  border-color: white;
+  border-width:1px;
+}
+.lol {
+  padding-right:8%;
+  padding-top:5%;
+  text-align:right;
+  width:86%;
+}
+.lol2 {
+  width: 43%;
+  padding-top:5%;
+  padding-left:8%;
+}
