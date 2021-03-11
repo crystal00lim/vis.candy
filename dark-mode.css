@@ -221,8 +221,8 @@ transform: rotate(-135deg);
 }
 *
 {
-    user-select: none;
-    -webkit-tap-highlight-color:transparent;
+  user-select: none;
+  -webkit-tap-highlight-color:transparent;
 }
 #light {
   box-sizing: border-box;
